@@ -567,7 +567,7 @@ ASSIGNMENT COMPLIANCE CHECK
 - Does each site retrieve solar resource data?
 - Does each site run a PVWatts calculation?
 
-Reference: Objective section  [oai_citation:0‡Software Engineer Intern - Technical Assessment.pdf](sediment://file_00000000e80071f5a0891e601d5c6d9e)
+
 
 -------------------------
 
@@ -582,7 +582,6 @@ Reference: Objective section  [oai_citation:0‡Software Engineer Intern - Techn
 
 - Is architecture flexible for Phase 2 updates?
 
-Reference: Workflow requirement  [oai_citation:1‡Software Engineer Intern - Technical Assessment.pdf](sediment://file_00000000e80071f5a0891e601d5c6d9e)
 
 -------------------------
 
@@ -591,7 +590,6 @@ Reference: Workflow requirement  [oai_citation:1‡Software Engineer Intern - Te
 - Does it correctly convert address → lat/lon?
 - Are invalid / empty addresses handled clearly?
 
-Reference: Data expectations  [oai_citation:2‡Software Engineer Intern - Technical Assessment.pdf](sediment://file_00000000e80071f5a0891e601d5c6d9e)
 
 -------------------------
 
@@ -600,7 +598,6 @@ Reference: Data expectations  [oai_citation:2‡Software Engineer Intern - Techn
 - Are markers shown for each valid site?
 - Are invalid sites excluded from markers?
 
-Reference: Minimum requirements  [oai_citation:3‡Software Engineer Intern - Technical Assessment.pdf](sediment://file_00000000e80071f5a0891e601d5c6d9e)
 
 -------------------------
 
@@ -628,7 +625,6 @@ Reference: Minimum requirements  [oai_citation:3‡Software Engineer Intern - Te
 - API failure → handled without crash?
 - Rate limit (429) → handled gracefully?
 
-Reference: invalid data note  [oai_citation:4‡Software Engineer Intern - Technical Assessment.pdf](sediment://file_00000000e80071f5a0891e601d5c6d9e)
 
 -------------------------
 
@@ -637,8 +633,6 @@ Reference: invalid data note  [oai_citation:4‡Software Engineer Intern - Techn
   { id, address, lat, lon, status, error }?
 - Is status properly updated:
   pending → valid / invalid?
-
-Reference: Suggested data model  [oai_citation:5‡Software Engineer Intern - Technical Assessment.pdf](sediment://file_00000000e80071f5a0891e601d5c6d9e)
 
 -------------------------
 
@@ -654,7 +648,6 @@ Reference: Suggested data model  [oai_citation:5‡Software Engineer Intern - Te
 - Is app NOT tightly coupled to initial dataset?
 - Can new 5 sites be added without rewriting logic?
 
-Reference: evaluation criteria  [oai_citation:6‡Software Engineer Intern - Technical Assessment.pdf](sediment://file_00000000e80071f5a0891e601d5c6d9e)
 
 -------------------------
 
@@ -663,7 +656,6 @@ Reference: evaluation criteria  [oai_citation:6‡Software Engineer Intern - Tec
 - Is separation of concerns clear?
 - Are comments meaningful and helpful?
 
-Reference: evaluation criteria  [oai_citation:7‡Software Engineer Intern - Technical Assessment.pdf](sediment://file_00000000e80071f5a0891e601d5c6d9e)
 
 -------------------------
 
@@ -679,7 +671,6 @@ Reference: evaluation criteria  [oai_citation:7‡Software Engineer Intern - Tec
 - Are unnecessary calls avoided?
 - Is caching or optimization present (optional)?
 
-Reference: evaluation criteria  [oai_citation:8‡Software Engineer Intern - Technical Assessment.pdf](sediment://file_00000000e80071f5a0891e601d5c6d9e)
 
 =========================
 OUTPUT FORMAT

@@ -1,4 +1,4 @@
-# Solar Site Mapper — Explained (beginner + interview guide)
+# Solar Site Mapper
 
 This note explains the project in plain language. Use it to learn the system and to talk about it in interviews.
 
@@ -220,9 +220,9 @@ Detail page also **aborts** in-flight requests when you navigate away (so Strict
 
 ---
 
-## 10) Interview summary (1–2 minutes)
+## 10) Summary 
 
-You can say something like this:
+You can see it something like this:
 
 > “Solar Site Mapper is a small full-stack app for comparing solar potential at different U.S. addresses. The user adds an address on a map page; we geocode it on the server with Nominatim, store each site in React state and localStorage, and show valid locations on a Leaflet map. Opening a site’s detail page loads NREL solar resource data and a PVWatts estimate for that lat/lon—the NREL API key never goes to the browser; the Express backend proxies those calls and validates input. We handle bad addresses, rate limits, and network errors with clear messages, and we cache NREL responses to avoid repeat calls. The architecture is intentionally layered: React UI, a thin API client, Express controllers and services, and external APIs.”
 
@@ -230,4 +230,4 @@ You can say something like this:
 
 ## Related doc
 
-For assignment-style checklists and file paths, see [PROJECT_DOCUMENTATION.md](./PROJECT_DOCUMENTATION.md).
+For more details and file paths, see [PROJECT_DOCUMENTATION.md](./PROJECT_DOCUMENTATION.md).

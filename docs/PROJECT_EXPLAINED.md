@@ -1,6 +1,6 @@
 # Solar Site Mapper
 
-This note explains the project in plain language. Use it to learn the system and to talk about it in interviews.
+This note explains the project in plain language.
 
 ---
 

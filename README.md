@@ -59,6 +59,11 @@ Open **http://localhost:5173** in your browser. The UI calls the API at `http://
 
 Sites you add are stored in **localStorage** so a refresh does not clear the list.
 
+## Documentation
+
+- **Submission / project notes:** [docs/PROJECT_NOTES.md](docs/PROJECT_NOTES.md) (open in the editor, then use Markdown preview to see images under `docs/assets/`)
+- **Technical overview:** [docs/PROJECT_DOCUMENTATION.md](docs/PROJECT_DOCUMENTATION.md)
+
 ## Phase 2 note
 
 When the final assessment site list is available, you can preload addresses from `client/src/config/initialSites.js` without changing the API or routing.
